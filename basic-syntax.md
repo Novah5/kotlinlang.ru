@@ -196,7 +196,7 @@ fun main(args: Array<String>) {
 ``` kotlin
 fun getStringLength(obj: Any): Int? {
   if (obj is String) {
-    // в это блоке `obj` автоматически преобразован в `String`
+    // в этом блоке `obj` автоматически преобразован в `String`
     return obj.length
   }
 
@@ -212,7 +212,7 @@ fun getStringLength(obj: Any): Int? {
   if (obj !is String)
     return null
 
-  // в это блоке `obj` автоматически преобразован в `String`
+  // в этом блоке `obj` автоматически преобразован в `String`
   return obj.length
 }
 ```
